@@ -1,0 +1,17 @@
+uuid: 483c901b-47e5-49ae-ac4f-41e10c621d08
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Pelicula
+type: pelicula
+description: 'Tipo de contenido para péliculas'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

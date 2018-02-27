@@ -1,0 +1,22 @@
+cdn_provider: custom
+_core:
+  default_config_hash: _5qrDuRmWmRVjW00si3U1s1NrgrocA4N653EYGRfgEE
+favicon:
+  mimetype: image/vnd.microsoft.icon
+  path: ''
+  url: 'http://localhost:8088/themes/custom/drupal8_theme/favicon.ico'
+  use_default: 1
+schemas:
+  bootstrap: 8000
+  drupal8_theme: 8000
+features:
+  comment_user_picture: 1
+  comment_user_verification: 1
+  favicon: 1
+  node_user_picture: 1
+logo:
+  path: ''
+  url: ''
+  use_default: 1
+table_responsive: '-1'
+table: ''

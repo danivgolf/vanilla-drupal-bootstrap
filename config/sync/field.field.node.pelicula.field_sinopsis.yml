@@ -1,0 +1,22 @@
+uuid: 9548a9b1-3b7d-4669-b965-d61e0a22be4b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_sinopsis
+    - node.type.pelicula
+  module:
+    - text
+id: node.pelicula.field_sinopsis
+field_name: field_sinopsis
+entity_type: node
+bundle: pelicula
+label: Sinopsis
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+field_type: text_with_summary

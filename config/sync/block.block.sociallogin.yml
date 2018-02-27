@@ -1,0 +1,20 @@
+uuid: 016e99a4-1375-45ed-b550-0a3934166c93
+langcode: en
+status: true
+dependencies:
+  module:
+    - social_login
+  theme:
+    - drupal8_theme
+id: sociallogin
+theme: drupal8_theme
+region: content
+weight: 0
+provider: null
+plugin: social_login_block
+settings:
+  id: social_login_block
+  label: 'Social Login'
+  provider: social_login
+  label_display: visible
+visibility: {  }

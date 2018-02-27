@@ -1,0 +1,12 @@
+{# myModule/templates/registro.html.yml #}
+
+<h1>Holaaaaaaaaaaaaaaaaaaaaaaaa</h1>
+
+{% for pelicula in peliculas %}
+    <p>{{ pelicula.get('title').value }}</p>
+    <p>{{ pelicula.get('field_caratula').value }}</p>
+    <p>{{ pelicula.get('field_sinopsis').value }}</p>
+    <p>{{ pelicula.get('field_genero').value }}</p>
+{% endfor %}
+
+<p>Esto es un párrafo</p>

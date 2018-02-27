@@ -1,0 +1,9 @@
+uuid: 4bd92888-1b13-4446-87b2-530c607b2ea5
+langcode: en
+status: true
+dependencies: {  }
+name: Género
+vid: genero
+description: 'Género en el que clasificamos las películas'
+hierarchy: 0
+weight: 0

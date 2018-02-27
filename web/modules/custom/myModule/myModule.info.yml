@@ -1,0 +1,5 @@
+name: My Module
+description: Módulo para practicas
+type: module
+core: 8.x
+package: Custom

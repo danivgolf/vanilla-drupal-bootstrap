@@ -1,0 +1,22 @@
+uuid: 8ddbeec3-181c-4156-870a-c5f72e7d7e3c
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.pelicula
+id: node.pelicula.promote
+field_name: promote
+entity_type: node
+bundle: pelicula
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

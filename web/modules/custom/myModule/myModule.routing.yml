@@ -1,0 +1,7 @@
+myModule.registro:
+  path: '/registro'
+  defaults:
+    _controller: '\Drupal\myModule\Controller\MyModuleController::registro'
+    _title: 'Página de registro'
+  requirements:
+    _permission: 'access content'
