@@ -1,0 +1,11 @@
+name: Forcontu Pages
+type: module
+description: 'Display a basic page.'
+package: Forcontu
+core: 8.x
+
+dependencies:
+  - node
+  - serialization
+configure: forcontu_hello.admin
+version: 1.0
